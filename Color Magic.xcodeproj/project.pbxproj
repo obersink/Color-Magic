@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8CF050272044EA4D0039207A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF050262044EA4D0039207A /* AppDelegate.swift */; };
-		8CF050292044EA4D0039207A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF050282044EA4D0039207A /* ViewController.swift */; };
+		8CF050292044EA4D0039207A /* ColorPresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF050282044EA4D0039207A /* ColorPresenterVC.swift */; };
 		8CF0502C2044EA4D0039207A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0502A2044EA4D0039207A /* Main.storyboard */; };
 		8CF0502E2044EA4D0039207A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0502D2044EA4D0039207A /* Assets.xcassets */; };
 		8CF050312044EA4D0039207A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0502F2044EA4D0039207A /* LaunchScreen.storyboard */; };
+		8CF05039204517940039207A /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF05038204517940039207A /* ColorPickerVC.swift */; };
+		8CF0503B20451A400039207A /* ColorTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF0503A20451A400039207A /* ColorTransfer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CF050232044EA4D0039207A /* Color Magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF050262044EA4D0039207A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CF050282044EA4D0039207A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CF050282044EA4D0039207A /* ColorPresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenterVC.swift; sourceTree = "<group>"; };
 		8CF0502B2044EA4D0039207A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CF0502D2044EA4D0039207A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CF050302044EA4D0039207A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CF050322044EA4D0039207A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF05038204517940039207A /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		8CF0503A20451A400039207A /* ColorTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransfer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				8CF050262044EA4D0039207A /* AppDelegate.swift */,
-				8CF050282044EA4D0039207A /* ViewController.swift */,
+				8CF050282044EA4D0039207A /* ColorPresenterVC.swift */,
+				8CF05038204517940039207A /* ColorPickerVC.swift */,
+				8CF0503A20451A400039207A /* ColorTransfer.swift */,
 				8CF0502A2044EA4D0039207A /* Main.storyboard */,
 				8CF0502D2044EA4D0039207A /* Assets.xcassets */,
 				8CF0502F2044EA4D0039207A /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF050292044EA4D0039207A /* ViewController.swift in Sources */,
+				8CF050292044EA4D0039207A /* ColorPresenterVC.swift in Sources */,
 				8CF050272044EA4D0039207A /* AppDelegate.swift in Sources */,
+				8CF0503B20451A400039207A /* ColorTransfer.swift in Sources */,
+				8CF05039204517940039207A /* ColorPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
